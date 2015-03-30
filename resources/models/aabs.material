@@ -1,0 +1,14 @@
+material AABSPicture
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture Group_Photo.jpg
+			}
+		}
+	}
+
+}
