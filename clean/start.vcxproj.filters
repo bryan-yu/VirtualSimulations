@@ -1,0 +1,592 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="AABSApplication.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="ForceRegistration.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="ForceRegistry.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="GravityForceGenerator.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="ITensorCalculator.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyboardState.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Light.cpp">
+      <Filter>Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix3.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix4.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="MouseState.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="OISKeyboardState.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="OISMouseState.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Point3.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Quaternion.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="StringTokenizer.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector3.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="LuaManager.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="RigidBody.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionResolver.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsManager.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="OISInputManager.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="PenetrationResolver.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="ITensorCombiner.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp" />
+    <ClCompile Include="PhysicsExercise.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionCylinder.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="CompoundObject.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionObject.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionBox.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionSphere.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="ManifoldBag.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Manifold.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="MD5.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="PrecisionTimer.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Affordance.cpp">
+      <Filter>AI\Affordance</Filter>
+    </ClCompile>
+    <ClCompile Include="AffordanceManager.cpp">
+      <Filter>AI\Affordance</Filter>
+    </ClCompile>
+    <ClCompile Include="Drink.cpp">
+      <Filter>AI\Affordance</Filter>
+    </ClCompile>
+    <ClCompile Include="Relieve.cpp">
+      <Filter>AI\Affordance</Filter>
+    </ClCompile>
+    <ClCompile Include="Social.cpp">
+      <Filter>AI\Affordance</Filter>
+    </ClCompile>
+    <ClCompile Include="Cursor.cpp">
+      <Filter>Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="UpdateRegulator.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Need.cpp">
+      <Filter>AI\Needs</Filter>
+    </ClCompile>
+    <ClCompile Include="NeedComposition.cpp">
+      <Filter>AI\Needs</Filter>
+    </ClCompile>
+    <ClCompile Include="Personality.cpp">
+      <Filter>AI\Personality</Filter>
+    </ClCompile>
+    <ClCompile Include="Trait.cpp">
+      <Filter>AI\Traits</Filter>
+    </ClCompile>
+    <ClCompile Include="Action.cpp">
+      <Filter>AI\Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="ActionManager.cpp">
+      <Filter>AI\Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="AffordanceEvaluator.cpp">
+      <Filter>AI\Affordance</Filter>
+    </ClCompile>
+    <ClCompile Include="DrinkAffordanceEvaluator.cpp">
+      <Filter>AI\Affordance</Filter>
+    </ClCompile>
+    <ClCompile Include="SocialiseAffordanceEvaluator.cpp">
+      <Filter>AI\Affordance</Filter>
+    </ClCompile>
+    <ClCompile Include="UrinateAffordanceEvaluator.cpp">
+      <Filter>AI\Affordance</Filter>
+    </ClCompile>
+    <ClCompile Include="Agent.cpp">
+      <Filter>AI\Agent</Filter>
+    </ClCompile>
+    <ClCompile Include="DrinkState.cpp">
+      <Filter>AI\Agent</Filter>
+    </ClCompile>
+    <ClCompile Include="SocialiseState.cpp">
+      <Filter>AI\Agent</Filter>
+    </ClCompile>
+    <ClCompile Include="StateManager.cpp">
+      <Filter>AI\Agent</Filter>
+    </ClCompile>
+    <ClCompile Include="UrinateState.cpp">
+      <Filter>AI\Agent</Filter>
+    </ClCompile>
+    <ClCompile Include="NeedManager.cpp">
+      <Filter>AI\Needs</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjectManager.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="InteractiveObject.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="PatronActionEvaluatorState.cpp">
+      <Filter>AI\Agent</Filter>
+    </ClCompile>
+    <ClCompile Include="TextRenderer.cpp" />
+    <ClCompile Include="TraitManager.cpp" />
+    <ClCompile Include="Ray.cpp">
+      <Filter>AI\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="ActionBlackboard.cpp">
+      <Filter>AI\Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="CalmPatronState.cpp">
+      <Filter>AI\Agent</Filter>
+    </ClCompile>
+    <ClCompile Include="EjectPatronState.cpp">
+      <Filter>AI\Agent</Filter>
+    </ClCompile>
+    <ClCompile Include="LocalMoodTrigger.cpp">
+      <Filter>AI\Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="LocalNeedTrigger.cpp">
+      <Filter>AI\Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="TargetMoodTrigger.cpp">
+      <Filter>AI\Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="TargetNeedTrigger.cpp">
+      <Filter>AI\Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="TidyState.cpp">
+      <Filter>AI\Agent</Filter>
+    </ClCompile>
+    <ClCompile Include="IEmotionModifier.cpp">
+      <Filter>AI\Emotions</Filter>
+    </ClCompile>
+    <ClCompile Include="SocialiseAction.cpp">
+      <Filter>PlayerActions</Filter>
+    </ClCompile>
+    <ClCompile Include="ProvokeAction.cpp">
+      <Filter>PlayerActions</Filter>
+    </ClCompile>
+    <ClCompile Include="PickAction.cpp">
+      <Filter>PlayerActions</Filter>
+    </ClCompile>
+    <ClCompile Include="DrinkAction.cpp">
+      <Filter>PlayerActions</Filter>
+    </ClCompile>
+    <ClCompile Include="IDesireModifier.cpp">
+      <Filter>AI\Emotions</Filter>
+    </ClCompile>
+    <ClCompile Include="InputUser.cpp">
+      <Filter>PlayerActions</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AABSApplication.h">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseFactory.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="ForceGenerator.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="ForceRegistration.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="ForceRegistry.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="GravityForceGenerator.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="IMovable.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="ITensorCalculator.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyboardState.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix3.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix4.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseState.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="OISKeyboardState.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="OISMouseState.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Point3.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Quaternion.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="PriorityQ.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="StringTokenizer.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector3.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="types.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="LuaManager.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="RigidBody.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionResolver.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsManager.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="OISInputManager.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="PenetrationResolver.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="ITensorCombiner.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h" />
+    <ClInclude Include="PhysicsExercise.h">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionCylinder.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionBox.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="CompoundObject.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionObject.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionSphere.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="ManifoldBag.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Manifold.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="MD5.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="HashTable.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="PrecisionTimer.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Affordance.h">
+      <Filter>AI\Affordance</Filter>
+    </ClInclude>
+    <ClInclude Include="AffordanceManager.h">
+      <Filter>AI\Affordance</Filter>
+    </ClInclude>
+    <ClInclude Include="Drink.h">
+      <Filter>AI\Affordance</Filter>
+    </ClInclude>
+    <ClInclude Include="Relieve.h">
+      <Filter>AI\Affordance</Filter>
+    </ClInclude>
+    <ClInclude Include="Social.h">
+      <Filter>AI\Affordance</Filter>
+    </ClInclude>
+    <ClInclude Include="Cursor.h">
+      <Filter>Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="UpdateRegulator.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="NeedComposition.h">
+      <Filter>AI\Needs</Filter>
+    </ClInclude>
+    <ClInclude Include="Need.h">
+      <Filter>AI\Needs</Filter>
+    </ClInclude>
+    <ClInclude Include="Personality.h">
+      <Filter>AI\Personality</Filter>
+    </ClInclude>
+    <ClInclude Include="Trait.h">
+      <Filter>AI\Traits</Filter>
+    </ClInclude>
+    <ClInclude Include="IEmotionModifier.h">
+      <Filter>AI\Emotions</Filter>
+    </ClInclude>
+    <ClInclude Include="Evaluator.h">
+      <Filter>AI\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Action.h">
+      <Filter>AI\Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="ActionManager.h">
+      <Filter>AI\Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="AffordanceEvaluator.h">
+      <Filter>AI\Affordance</Filter>
+    </ClInclude>
+    <ClInclude Include="DrinkAffordanceEvaluator.h">
+      <Filter>AI\Affordance</Filter>
+    </ClInclude>
+    <ClInclude Include="SocialiseAffordanceEvaluator.h">
+      <Filter>AI\Affordance</Filter>
+    </ClInclude>
+    <ClInclude Include="UrinateAffordanceEvaluator.h">
+      <Filter>AI\Affordance</Filter>
+    </ClInclude>
+    <ClInclude Include="Agent.h">
+      <Filter>AI\Agent</Filter>
+    </ClInclude>
+    <ClInclude Include="DrinkState.h">
+      <Filter>AI\Agent</Filter>
+    </ClInclude>
+    <ClInclude Include="PatronStates.h">
+      <Filter>AI\Agent</Filter>
+    </ClInclude>
+    <ClInclude Include="SocialiseState.h">
+      <Filter>AI\Agent</Filter>
+    </ClInclude>
+    <ClInclude Include="State.h">
+      <Filter>AI\Agent</Filter>
+    </ClInclude>
+    <ClInclude Include="StateMachine.h">
+      <Filter>AI\Agent</Filter>
+    </ClInclude>
+    <ClInclude Include="StateManager.h">
+      <Filter>AI\Agent</Filter>
+    </ClInclude>
+    <ClInclude Include="UrinateState.h">
+      <Filter>AI\Agent</Filter>
+    </ClInclude>
+    <ClInclude Include="NeedManager.h">
+      <Filter>AI\Needs</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjectManager.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="InteractiveObject.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="PatronActionEvaluatorState.h">
+      <Filter>AI\Agent</Filter>
+    </ClInclude>
+    <ClInclude Include="NeedsEvaluators.h" />
+    <ClInclude Include="TextRenderer.h" />
+    <ClInclude Include="TraitManager.h" />
+    <ClInclude Include="Constants.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Ray.h">
+      <Filter>AI\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="ActionBlackboard.h">
+      <Filter>AI\Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="ActionTrigger.h">
+      <Filter>AI\Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="CalmPatronState.h">
+      <Filter>AI\Agent</Filter>
+    </ClInclude>
+    <ClInclude Include="Blackboard.h">
+      <Filter>AI\Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="EjectPatronState.h">
+      <Filter>AI\Agent</Filter>
+    </ClInclude>
+    <ClInclude Include="LocalMoodTrigger.h">
+      <Filter>AI\Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="LocalNeedTrigger.h">
+      <Filter>AI\Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="TargetMoodTrigger.h">
+      <Filter>AI\Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="TargetNeedTrigger.h">
+      <Filter>AI\Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="TidyState.h">
+      <Filter>AI\Agent</Filter>
+    </ClInclude>
+    <ClInclude Include="SocialiseAction.h">
+      <Filter>PlayerActions</Filter>
+    </ClInclude>
+    <ClInclude Include="ProvokeAction.h">
+      <Filter>PlayerActions</Filter>
+    </ClInclude>
+    <ClInclude Include="PickAction.h">
+      <Filter>PlayerActions</Filter>
+    </ClInclude>
+    <ClInclude Include="DrinkAction.h">
+      <Filter>PlayerActions</Filter>
+    </ClInclude>
+    <ClInclude Include="IDesireModifier.h">
+      <Filter>AI\Emotions</Filter>
+    </ClInclude>
+    <ClInclude Include="InputUser.h">
+      <Filter>PlayerActions</Filter>
+    </ClInclude>
+    <ClInclude Include="InputCallback.h">
+      <Filter>PlayerActions</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Core">
+      <UniqueIdentifier>{79e2e8f4-91be-44dd-ae5a-b1111d7526d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input">
+      <UniqueIdentifier>{c6c9ac90-c7ef-4faf-b398-e7e68a646cc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physics">
+      <UniqueIdentifier>{d658f2a2-ef20-43ce-87a5-d9d1f84642d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{8ca3c624-9e10-4ec6-9573-137f154375ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application">
+      <UniqueIdentifier>{b36fd1a9-4e35-4d1a-a491-b2c75e48e61c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rendering">
+      <UniqueIdentifier>{b5fc9939-4047-4860-94bc-82791f0cdc21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI">
+      <UniqueIdentifier>{42997239-05ab-4d8b-a4f5-aa52585c7312}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\Affordance">
+      <UniqueIdentifier>{ac804179-2ee8-43da-97ef-21c348fe061f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\Needs">
+      <UniqueIdentifier>{3f9d1073-c62f-4e2d-b4d5-515179b4ee0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\Personality">
+      <UniqueIdentifier>{14604010-485b-42dd-81f5-987204e9bc69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\Traits">
+      <UniqueIdentifier>{1eef92dc-dd14-4af9-824c-c530cef311aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\Utilities">
+      <UniqueIdentifier>{01b6378c-c33d-4252-9869-4622606d0319}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\Emotions">
+      <UniqueIdentifier>{2c0fa6dd-289c-4277-9bf0-0e523841433f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\Actions">
+      <UniqueIdentifier>{b8ab3b5c-d100-4297-8a57-05af8ee8134e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\Agent">
+      <UniqueIdentifier>{dcd01125-b9c3-452b-b7c6-802d2a5c2872}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PlayerActions">
+      <UniqueIdentifier>{31cf7dce-0cd3-4150-8788-2adea9a65526}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

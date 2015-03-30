@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\implementation">
+      <UniqueIdentifier>{61570b0b-a31a-46f2-bb64-6b5a6170cbba}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Testing.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MatrixTests.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="QuaternionTests.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PriorityQTest.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LuaManagerTest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NeedsTest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector3Test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Point3Test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\clean\Vector3.cpp">
+      <Filter>Source Files\implementation</Filter>
+    </ClCompile>
+    <ClCompile Include="InputTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\clean\InputManager.cpp">
+      <Filter>Source Files\implementation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\clean\KeyboardState.cpp">
+      <Filter>Source Files\implementation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\clean\MouseState.cpp">
+      <Filter>Source Files\implementation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\clean\OISKeyboardState.cpp">
+      <Filter>Source Files\implementation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\clean\OISMouseState.cpp">
+      <Filter>Source Files\implementation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\clean\Point3.cpp">
+      <Filter>Source Files\implementation</Filter>
+    </ClCompile>
+    <ClCompile Include="AABSObjectTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\clean\AABSApplication.cpp">
+      <Filter>Source Files\implementation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\clean\Matrix3.cpp">
+      <Filter>Source Files\implementation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\clean\Quaternion.cpp">
+      <Filter>Source Files\implementation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\clean\ITensorCalculator.cpp">
+      <Filter>Source Files\implementation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\clean\Matrix4.cpp">
+      <Filter>Source Files\implementation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\clean\StringTokenizer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\clean\Camera.cpp">
+      <Filter>Source Files\implementation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\clean\RigidBody.cpp">
+      <Filter>Source Files\implementation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\clean\SceneManager.cpp">
+      <Filter>Source Files\implementation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\clean\PenetrationResolver.cpp">
+      <Filter>Source Files\implementation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\clean\PhysicsManager.cpp">
+      <Filter>Source Files\implementation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\clean\Object.cpp">
+      <Filter>Source Files\implementation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\clean\CollisionResolver.cpp">
+      <Filter>Source Files\implementation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\clean\Manifold.cpp">
+      <Filter>Source Files\implementation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\clean\ManifoldBag.cpp">
+      <Filter>Source Files\implementation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\clean\OISInputManager.cpp">
+      <Filter>Source Files\implementation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\clean\ForceRegistry.cpp">
+      <Filter>Source Files\implementation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\clean\Affordance.cpp">
+      <Filter>Source Files\implementation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\clean\AffordanceManager.cpp">
+      <Filter>Source Files\implementation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\clean\CollisionBox.cpp">
+      <Filter>Source Files\implementation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\clean\CollisionCylinder.cpp">
+      <Filter>Source Files\implementation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\clean\CollisionObject.cpp">
+      <Filter>Source Files\implementation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\clean\CollisionSphere.cpp">
+      <Filter>Source Files\implementation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\clean\CompoundObject.cpp">
+      <Filter>Source Files\implementation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\clean\Drink.cpp">
+      <Filter>Source Files\implementation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\clean\ForceRegistration.cpp">
+      <Filter>Source Files\implementation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\clean\GravityForceGenerator.cpp">
+      <Filter>Source Files\implementation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\clean\InteractiveObject.cpp">
+      <Filter>Source Files\implementation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\clean\ITensorCombiner.cpp">
+      <Filter>Source Files\implementation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\clean\Light.cpp">
+      <Filter>Source Files\implementation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\clean\LuaManager.cpp">
+      <Filter>Source Files\implementation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\clean\Relieve.cpp">
+      <Filter>Source Files\implementation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\clean\Social.cpp">
+      <Filter>Source Files\implementation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\clean\StdAfx.cpp">
+      <Filter>Source Files\implementation</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
