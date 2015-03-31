@@ -1,0 +1,471 @@
+material 05-Default
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.403922 0.403922 0.403922 1
+			diffuse 0.403922 0.403922 0.403922 1
+			specular 0 0 0 1 10
+		}
+
+	}
+
+}
+
+
+
+material 11-Default
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.0901961 0.345098 0.0784314 1
+			diffuse 0.0901961 0.345098 0.0784314 1
+			specular 0 0 0 1 10
+		}
+
+	}
+
+}
+
+
+
+material 17-Default
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.490196 0.490196 0.490196 1
+			diffuse 0.490196 0.490196 0.490196 1
+			specular 0.819 0.819 0.819 1 21
+		}
+
+	}
+
+}
+
+
+
+material BenchMetal01
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.14902 0.207843 0.235294 1
+			diffuse 0.14902 0.207843 0.235294 1
+			specular 0 0 0 1 10
+		}
+
+	}
+
+}
+
+
+
+material BenchWood01
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.243137 0.0627451 0.0627451 1
+			diffuse 0.243137 0.0627451 0.0627451 1
+			specular 0 0 0 1 10
+		}
+
+	}
+
+}
+
+
+
+material BlackCushion
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0 0 0 1
+			specular 0.513 0.513 0.513 1 39
+		}
+
+	}
+
+}
+
+
+
+material BlackLeather01
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.00392157 0.00392157 0.00392157 1
+			diffuse 0.00392157 0.00392157 0.00392157 1
+			specular 0.225 0.225 0.225 1 20
+		}
+
+	}
+
+}
+
+
+
+material CaneChair01
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.756863 0.690196 0.603922 1
+			diffuse 0.756863 0.690196 0.603922 1
+			specular 0 0 0 1 10
+		}
+
+	}
+
+}
+
+
+
+material GreyMetal01
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.490196 0.490196 0.490196 1
+			diffuse 0.490196 0.490196 0.490196 1
+			specular 0.819 0.819 0.819 1 21
+		}
+
+	}
+
+}
+
+
+
+material MATTE_BLACK
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0 0 0 1
+			specular 0 0 0 1 1
+		}
+
+	}
+
+}
+
+
+
+material Metal02
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.254902 0.411765 0.486275 1
+			diffuse 0.254902 0.411765 0.486275 1
+			specular 0.891 0.891 0.891 1 1
+		}
+
+	}
+
+}
+
+
+
+material Tex_Beige01
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.333333 0.27451 0.160784 1
+			diffuse 0.333333 0.27451 0.160784 1
+			specular 0 0 0 1 10
+		}
+
+	}
+
+}
+
+
+
+material Tex_Concrete01
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.239216 0.211765 0.180392 1
+			diffuse 0.239216 0.211765 0.180392 1
+			specular 0 0 0 1 10
+		}
+
+	}
+
+}
+
+
+
+material Tex_DarkerRed01
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.00784314 0 0 1
+			diffuse 0.00784314 0 0 1
+			specular 0 0 0 1 10
+			cull_hardware none
+			cull_software none
+		}
+
+	}
+
+}
+
+
+
+material Tex_DarkRed01
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.105882 0.00392157 0 1
+			diffuse 0.105882 0.00392157 0 1
+			specular 0 0 0 1 10
+		}
+
+	}
+
+}
+
+
+
+material Tex_Door01
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.0392157 0.027451 0.027451 1
+			diffuse 0.0392157 0.027451 0.027451 1
+			specular 0 0 0 1 10
+		}
+
+	}
+
+}
+
+
+
+material Tex_Grey01
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.223529 0.223529 0.223529 1
+			diffuse 0.223529 0.223529 0.223529 1
+			specular 0 0 0 1 10
+		}
+
+	}
+
+}
+
+
+
+material Tex_Metal01
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.0156863 0.0117647 0.0117647 1
+			diffuse 0.0156863 0.0117647 0.0117647 1
+			specular 0.586275 0.586275 0.586275 1 43
+		}
+
+	}
+
+}
+
+
+
+material Tex_Metal02
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.133333 0.117647 0.0941177 1
+			diffuse 0.133333 0.117647 0.0941177 1
+			specular 0.586275 0.586275 0.586275 1 43
+		}
+
+	}
+
+}
+
+
+
+material Tex_Sienna01
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.419608 0.0823529 0.0470588 1
+			diffuse 0.419608 0.0823529 0.0470588 1
+			specular 0 0 0 1 10
+			cull_hardware none
+			cull_software none
+		}
+
+	}
+
+}
+
+
+
+material Tex_White01
+{
+	technique
+	{
+		pass
+		{
+			specular 0 0 0 1 10
+		}
+
+	}
+
+}
+
+
+
+material Tex_WindowGlass01
+{
+	technique
+	{
+		pass
+		{
+			//ambient 0.588235 0.588235 0.588235 1
+			//diffuse 0.588235 0.588235 0.588235 1
+			//specular 0 0 0 1 10
+			//scene_blend add
+			scene_blend colour_blend
+			depth_write off
+
+			texture_unit
+			{
+			//	colour_op_ex blend_manual src_manual src_current 0.1 1 1 1
+			//	colour_op_multipass_fallback dest_colour zero
+			//	alpha_op_ex source1 src_manual src_current 0.1
+				texture WindowGlass.jpg
+				scale 0.25 0.25
+			}
+		}
+
+	}
+
+}
+
+
+material Tex_Yellow01
+{
+	technique
+	{
+		pass
+		{
+			ambient 1 0.639216 0.0705882 1
+			diffuse 1 0.639216 0.0705882 1
+			specular 0 0 0 1 10
+			cull_hardware none
+			cull_software none
+		}
+
+	}
+
+}
+
+
+
+material Wood01
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.0313726 0.00784314 0.00784314 1
+			diffuse 0.0313726 0.00784314 0.00784314 1
+			specular 0 0 0 1 10
+		}
+
+	}
+
+}
+
+
+
+material Wood02
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.34902 0.101961 0.0352941 1
+			diffuse 0.34902 0.101961 0.0352941 1
+			specular 0 0 0 1 10
+		}
+
+	}
+
+}
+
+
+
+material Wood03
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.376471 0.117647 0.0588235 1
+			diffuse 0.376471 0.117647 0.0588235 1
+			specular 0 0 0 1 10
+		}
+
+	}
+
+}
+
+
+
+material Wood04
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.717647 0.0509804 0 1
+			diffuse 0.717647 0.0509804 0 1
+			specular 0.414 0.414 0.414 1 21
+		}
+
+	}
+
+}
