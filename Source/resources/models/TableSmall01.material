@@ -1,0 +1,31 @@
+material Metal02
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.254902 0.411765 0.486275 1
+			diffuse 0.254902 0.411765 0.486275 1
+			specular 0.891 0.891 0.891 1 1
+		}
+
+	}
+
+}
+
+
+
+material Wood04
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.717647 0.0509804 0 1
+			diffuse 0.717647 0.0509804 0 1
+			specular 0.414 0.414 0.414 1 21
+		}
+
+	}
+
+}

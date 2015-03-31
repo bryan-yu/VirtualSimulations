@@ -1,0 +1,100 @@
+<?xml version="1.0" ?>
+<!-- Actions. These actions are basically state changes triggered by a need
+     They also include a need modifier as a need/percentage pair which is 
+     actioned when exiting a state -->
+<!-- CHECK UML should these just be defined in Agent ?? -->
+
+
+<Actions>
+	<Action>	
+		<Name>Drink</Name>
+		<State>DrinkState</State>
+		<LocalNeedModifiers>
+			<LocalNeedModifier>
+				<Need>Thirst</Need>
+				<Modifier>20</Modifier>
+			</LocalNeedModifier>
+			<LocalNeedModifier>
+				<Need>Urinate</Need>
+				<Modifier>-20</Modifier>
+			</LocalNeedModifier>
+		</LocalNeedModifiers>
+		<LocalEmotionModifiers>
+			<LocalEmotionModifier>
+				<Emotion>Happy</Emotion>
+				<Modifier val="1.0"/>
+				<Duration val="1.0"/>
+				<Colour r="1.0" g="0.82" b="0.0" a="1.0"/>
+			</LocalEmotionModifier>
+		</LocalEmotionModifiers>
+	</Action>
+	<Action>
+		<Name>Urinate</Name>
+		<State>UrinateState</State>
+		<LocalNeedModifiers>
+			<LocalNeedModifier>
+				<Need>Urinate</Need>
+				<Modifier>100</Modifier>
+			</LocalNeedModifier>
+		</LocalNeedModifiers>		
+		<LocalEmotionModifiers>
+			<LocalEmotionModifier>
+				<Emotion>Happy</Emotion>
+				<Modifier val="1.0"/>
+				<Duration val="1.0"/>
+				<Colour r="1.0" g="0.82" b="0.0" a="1.0"/>
+			</LocalEmotionModifier>
+		</LocalEmotionModifiers>
+		<TargetEmotionModifiers>
+			<TargetEmotionModifier>
+				<Emotion>Angry</Emotion>
+				<Modifier val="2.0"/>
+				<Duration val="2.0"/>
+				<Colour r="1.0" g="0.0" b="0.0" a="1.0"/>
+			</TargetEmotionModifier>
+		</TargetEmotionModifiers>
+	</Action>
+	<Action>
+		<Name>Socialise</Name>
+		<State>SocialiseState</State>
+		<LocalNeedModifiers>
+			<LocalNeedModifier>
+				<Need>Socialise</Need>
+				<Modifier>20</Modifier>
+			</LocalNeedModifier>
+			<LocalNeedModifier>
+				<Need>Thirst</Need>
+				<Modifier>-5</Modifier>
+			</LocalNeedModifier>
+		</LocalNeedModifiers>	
+		<LocalEmotionModifiers>
+			<LocalEmotionModifier>
+				<Emotion>Happy</Emotion>
+				<Modifier val="1.0"/>
+				<Duration val="1.0"/>
+				<Colour r="1.0" g="0.82" b="0.0" a="1.0"/>
+			</LocalEmotionModifier>
+		</LocalEmotionModifiers>
+		<TargetEmotionModifiers>
+			<TargetEmotionModifier>
+				<Emotion>Happy</Emotion>
+				<Modifier val="2.0"/>
+				<Duration val="1.0"/>
+				<Colour r="1.0" g="0.82" b="0.0" a="1.0"/>
+			</TargetEmotionModifier>
+		</TargetEmotionModifiers>
+	</Action>
+	<Action>
+		<Name>Tidy</Name>
+		<State>TidyState</State>
+	</Action>
+	<Action>
+		<Name>CalmPatron</Name>
+		<State>CalmPatronState</State>		
+	</Action>
+	<Action>
+		<Name>EjectPatron</Name>
+		<State>EjectPatronState</State>		
+	</Action>
+</Actions>
+	
